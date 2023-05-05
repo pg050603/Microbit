@@ -56,11 +56,12 @@ def main():
     '''
     Standalone test of device driver.
     '''
-    
+    '''
+    '''
     display_pixel(2,2)
     microbit.sleep(1000)
     display_pixel(1,1)
-    
+
     '''
     TODO: clear display, wait 1 second, display centre pixel, wait 1 second,
           turn on all pixels, wait 1 second, clear display
@@ -69,6 +70,8 @@ def main():
     clear_display()
     microbit.sleep(1000)
     display_pixel(2,2)
+    microbit.sleep(1000)
+    illuminate_display()
     microbit.sleep(1000)
     clear_display()
     #Test 2
